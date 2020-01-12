@@ -25,6 +25,11 @@ let sum = 0;
 for (const purchase of purchases) {
     sum+=purchase.amont;
     cashback = sum / 100;
+
+    const cashbackLimit = 3000;
+if (cashback > cashbackLimit) {
+    cashback = cashbackLimit;
+}
 }
 
 console.log(cashback);

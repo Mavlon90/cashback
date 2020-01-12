@@ -4,7 +4,7 @@ const SPECIAL_CATEGORY = "special";
 
 const purchases = [
 {
-    amont:1000,
+    amont:3000,
     category: REGULAR_CATEGORY,
 },
 
